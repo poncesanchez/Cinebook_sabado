@@ -14,7 +14,7 @@ El workflow selecciona el entorno según la rama:
 | `SPRING_PROFILES_ACTIVE` | Perfil Spring (sin `docker`; Compose lo añade) | `qa` | `prod` |
 | `VITE_API_URL` | URL **completa** del API (con `http://` y puerto `:8082`) | `http://98.92.219.201:8082` | `https://api.tudominio.cl` |
 | `VITE_BUILD_MODE` | Modo Vite (`qa` o `production`) | `qa` | `production` |
-| `CORS_ALLOWED_ORIGINS` | Orígenes permitidos por el backend (mismo host del frontend) | `http://<IP-QA>` | `https://tudominio.cl` |
+
 
 ## Secrets por entorno (`secrets`)
 
